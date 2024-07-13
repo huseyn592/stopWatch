@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+body{
+    background-image: linear-gradient(  #0f2027,#203a43, #2c5364);
+    width: 100vh;
+    height: 100vh;
+position: relative;
+    
+}
+
+
+.logo{
+    width: 800px;
+    height: 500px;
+   background-color: #044561;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 60px;
+ position: absolute;
+ top: 10%;
+ left: 50%;
+ border-radius: 40px;
+ box-shadow: 1px 7px 150px 60px rgb(60, 3, 60);
+ 
+ 
+
+}
+
+.logo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 201, 201);
+    font-size: 80px;
+}
+
+.watch{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 6px;
+}
+
+
+.minute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 150px;
+}
+
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 150px;
+
+}
+
+
+.milliSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 150px;
+
+}
+
+
+.start{
+    font-size: 25px;
+    background-color: #0f2027;
+    color: white;
+    border: 0px ;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.start:hover{
+    cursor: pointer;
+transition: all .3s;
+background-color: #044561;
+border: 1px solid #046e9c;
+
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.stop{
+    font-size: 25px;
+    background-color: #0f2027;
+    color: white;
+    border: 0px ;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.stop:hover{
+    cursor: pointer;
+    transition: all .3s;
+background-color: #044561;
+border: 1px solid #046e9c;
+
+}
+
+
+
+
+.reset{
+    font-size: 25px;
+    background-color: #0f2027;
+    color: white;
+    border: 0px ;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.reset:hover{
+    cursor: pointer;
+    transition: all .3s;
+background-color: #044561;
+border: 1px solid #046e9c;
+
+}
+
+
+
+
+
+
+
+.lap:hover{
+    cursor: pointer;
+    transition: all .3s;
+background-color: #044561;
+border: 1px solid #046e9c;
+}
+
+
+
+.lapList{
+    font-size: 30px;
+    color: white;
+  
+    
+}
+
+
+.lap{
+    font-size: 25px;
+    background-color: #0f2027;
+    color: white;
+    border: 0px ;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+
+
+    
+}
+
+
+
+
+
+
+
+  
+
+
